@@ -1,0 +1,4 @@
+[build]
+    base = "/"
+    publis = "dist/app"
+    command = "nx build --prod"
