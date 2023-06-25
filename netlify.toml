@@ -2,3 +2,8 @@
     base ="/"
     publish="dist/app"
     command="nx build --prod"
+    
+[[redirects]]
+ from = "/*"
+ to = "/"
+ status = 200
